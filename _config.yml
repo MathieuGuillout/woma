@@ -11,7 +11,7 @@ email: woma@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Code / Music / Generative Art
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://mathieuguillout.github.io/woma/" # the base hostname & protocol for your site
 github_username:  MathieuGuillout
 
 # Build settings
