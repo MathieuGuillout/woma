@@ -13,6 +13,9 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% if post.image %}
+            <img width="200px" src="{{ post.image | prepend: site.baseurl }}"/>
+          {% endif %}
         </h2>
       </li>
     {% endfor %}

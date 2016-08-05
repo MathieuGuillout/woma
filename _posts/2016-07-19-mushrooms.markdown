@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "New-York Night 02"
-date:   2016-07-19 10:21:09 -0400
-image: /assets/ny-night-02/b-20.png
+title:  "MushRooms"
+date:   2016-07-20 10:21:09 -0400
+image: /assets/mushrooms/b-09.png
 categories: generative-art
 ---
 
 {% for image in site.static_files %}
-    {% if image.path contains 'ny-night-02' %}
+    {% if image.path contains 'mushrooms' %}
 <img src="{{site.baseurl}}{{image.path}}" alt="{{image.path}}"/>
     {% endif %}
 {% endfor %}
