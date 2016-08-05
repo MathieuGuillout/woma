@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Spiral 01"
+date:   2016-07-1 10:21:09 -0400
+image: /assets/spiral-01/b-03.png
+categories: generative-art
+---
+
+{% for image in site.static_files %}
+    {% if image.path contains 'spiral-01' %}
+<img src="{{site.baseurl}}{{image.path}}" alt="{{image.path}}"/>
+    {% endif %}
+{% endfor %}
